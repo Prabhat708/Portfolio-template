@@ -1,0 +1,288 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(10, 0, 27);
+  overflow-x: hidden;
+}
+
+nav {
+  height: 3rem;
+  margin-top: 1rem;
+}
+nav h2 {
+  float: left;
+}
+#logo {
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  color: white;
+}
+nav ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  height: 2rem;
+  padding: 0.5rem;
+  float: left;
+  align-items: center;
+  margin-right: 4rem;
+  padding-top: 1rem;
+}
+li a {
+  text-decoration: none;
+  color: rgb(241, 240, 240);
+  font-size: 1.2rem;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+li a:hover {
+  background-color: #3e3e9e;
+  padding: 0.3rem;
+}
+
+/* hero-section */
+
+.hero {
+  height: 55rem;
+}
+.content-box {
+  text-align: justify;
+  position: absolute;
+  height: 30rem;
+  width: 40%;
+  margin: 2.5rem;
+  margin-top: 11rem;
+  padding-left: 5rem;
+  color: white;
+}
+.content-box h2 {
+  font-size: 3.8rem;
+}
+.content-box h3 {
+  padding-left: 9rem;
+  font-size: 2.4rem;
+}
+.content-box p {
+  font-size: 1.8rem;
+}
+.social-icons {
+  padding-top: 5rem;
+  padding-left: 8rem;
+}
+.social-icons a{
+  text-decoration: none;
+  color: white;
+}
+.social-icons i {
+  font-size: 2.5rem;
+  padding-left: 1.5rem;
+}
+.social-icons i:hover {
+  font-size: 4rem;
+  animation: none;
+}
+.photo-box {
+  position: absolute;
+  height: 30rem;
+  width: 40%;
+  margin: 2.5rem;
+  margin-left: 56%;
+  margin-top: 8rem;
+}
+
+/* Project Section  */
+
+.Project-section {
+  color: white;
+  height: auto;
+}
+.Project-section h1:nth-child(1) {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto auto;
+  gap: 5%;
+}
+.grid-item {
+  margin-left: 15%;
+}
+.grid-item:hover {
+  border: 0.3rem solid navajowhite;
+}
+.grid-item h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.project {
+  display: flex;
+}
+.project-image {
+  width: 50%;
+}
+.project-image img {
+  width: 80%;
+  padding-left: 5%;
+  padding-top: 5%;
+  opacity: 80%;
+  border-radius: 50%;
+}
+
+.project-discription {
+  width: 50%;
+  font-size: 1.5rem;
+  padding-left: 5%;
+  padding-top: 5%;
+  text-align: justify;
+}
+.project-link {
+  font-size: 1rem;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding: 0.2rem;
+  border-radius: 12%;
+}
+.project-link:hover {
+  background-color: rgb(125, 186, 190);
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(39, 46, 53);
+}
+
+/* Education Section  */
+.Eductaion-section {
+  margin-top: 15rem;
+  display: flex;
+}
+.eduaction-image{
+  display: flex;
+  align-items: center;
+}
+.eduaction-image img{
+  margin-left: 15%;
+  width: 70%;
+}
+.eductaion-section {
+  float: right;
+
+  color: rgb(245, 245, 245);
+}
+.eductaion-section h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.eductaion-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.education-discription h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.education-discription p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Experience Section  */
+.Experience-section{
+  display: flex;
+  color: white;
+  margin-top: 12rem;
+}
+.Experience-section h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.experience-image{
+  width: 50%;
+}
+.experience-image img{
+  width: 90%;
+  padding-left: 15%;
+  padding-top: 12%;
+}
+.experience-discription{
+  float: right;
+  width: 40%;
+}
+.experience-discription h2{
+  margin-top: 1.5rem;
+  font-size: 2.1rem;
+}
+.experience-discription p{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+/* Contact Section  */
+
+.Contact-section{
+  display: flex;
+  color: white;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.contact-image{
+  width: 50%;
+  float: right;
+}
+.contact-image img{
+  width: 80%;
+  float: center;
+}
+.contact-discription{
+  width: 50%;
+  text-align: center;
+}
+.contact-discription h1{
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.contact-discription p{
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  padding-left: 5%;
+}
+.resume-button{
+  width: 16%;
+  height: 7%;
+  float: center;
+  margin-top: 4rem;
+  font-weight: bold;
+  margin-left: 10%;
+}
+.resume-button:hover{
+  transform: scale(1.2);
+}
+footer{
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
